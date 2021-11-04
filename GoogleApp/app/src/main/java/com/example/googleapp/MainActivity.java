@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        getSupportActionBar().hide();
+
         webView = (WebView) findViewById(R.id.webView);
         String url = "https://www.google.com";
 
